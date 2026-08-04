@@ -106,14 +106,22 @@ pip install shipit-watcher
 
 ---
 
-## 📈 Activity
+## 📈 The projects at a glance
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shipiit&show_icons=true&theme=react&hide_border=true&bg_color=0B0D17&title_color=7C5CFF&icon_color=37E5B6&text_color=B9C0DC&include_all_commits=true&count_private=true" alt="ShipIt stats" height="165">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shipiit&layout=compact&theme=react&hide_border=true&bg_color=0B0D17&title_color=7C5CFF&text_color=B9C0DC&langs_count=8" alt="Top languages" height="165">
+| Project | Stars | Language | Last commit |
+|---|---|---|---|
+| [forge](https://github.com/shipiit/forge) | ![](https://img.shields.io/github/stars/shipiit/forge?style=flat-square&label=&color=7C5CFF) | ![](https://img.shields.io/github/languages/top/shipiit/forge?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shipiit/forge?style=flat-square&label=&color=37E5B6) |
+| [shipit_agent](https://github.com/shipiit/shipit_agent) | ![](https://img.shields.io/github/stars/shipiit/shipit_agent?style=flat-square&label=&color=7C5CFF) | ![](https://img.shields.io/github/languages/top/shipiit/shipit_agent?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shipiit/shipit_agent?style=flat-square&label=&color=37E5B6) |
+| [shipit-watchtower](https://github.com/shipiit/shipit-watchtower) | ![](https://img.shields.io/github/stars/shipiit/shipit-watchtower?style=flat-square&label=&color=7C5CFF) | ![](https://img.shields.io/github/languages/top/shipiit/shipit-watchtower?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shipiit/shipit-watchtower?style=flat-square&label=&color=37E5B6) |
+| [shipit-ui-design](https://github.com/shipiit/shipit-ui-design) | ![](https://img.shields.io/github/stars/shipiit/shipit-ui-design?style=flat-square&label=&color=7C5CFF) | ![](https://img.shields.io/github/languages/top/shipiit/shipit-ui-design?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shipiit/shipit-ui-design?style=flat-square&label=&color=37E5B6) |
+| [ShipIt_Palette](https://github.com/shipiit/ShipIt_Palette) | ![](https://img.shields.io/github/stars/shipiit/ShipIt_Palette?style=flat-square&label=&color=7C5CFF) | ![](https://img.shields.io/github/languages/top/shipiit/ShipIt_Palette?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shipiit/ShipIt_Palette?style=flat-square&label=&color=37E5B6) |
+| [snappilot](https://github.com/shipiit/snappilot) | ![](https://img.shields.io/github/stars/shipiit/snappilot?style=flat-square&label=&color=7C5CFF) | ![](https://img.shields.io/github/languages/top/shipiit/snappilot?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/shipiit/snappilot?style=flat-square&label=&color=37E5B6) |
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shipiit&theme=react-dark&bg_color=0B0D17&color=B9C0DC&line=7C5CFF&point=37E5B6&hide_border=true&area=true" alt="Contribution activity" width="98%">
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shipiit&theme=react-dark&bg_color=0B0D17&color=B9C0DC&line=7C5CFF&point=37E5B6&hide_border=true&area=true" alt="Contribution activity across the organization" width="98%">
 
 </div>
 
