@@ -119,10 +119,6 @@ pip install shipit-watcher
 | [ShipIt_Palette](https://github.com/shipiit/ShipIt_Palette) | — | ![](https://img.shields.io/github/stars/shipiit/ShipIt_Palette?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/ShipIt_Palette?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/ShipIt_Palette?style=flat-square&label=&color=1F2544) |
 | [snappilot](https://github.com/shipiit/snappilot) | ![](https://img.shields.io/github/v/release/shipiit/snappilot?style=flat-square&label=&color=7C5CFF&sort=semver) | ![](https://img.shields.io/github/stars/shipiit/snappilot?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/snappilot?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/snappilot?style=flat-square&label=&color=1F2544) |
 
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shipiit&theme=react-dark&bg_color=0B0D17&color=B9C0DC&line=7C5CFF&point=37E5B6&hide_border=true&area=true" alt="Contribution activity across the organization" width="98%">
-
 </div>
 
 ---
