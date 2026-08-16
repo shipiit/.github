@@ -25,6 +25,42 @@ infrastructure.
 
 ---
 
+## 🗺️ How it fits together
+
+One runtime, many surfaces. The same agent core powers the GitHub teammate,
+the terminal, and the cloud — with observability wired through everything.
+
+```mermaid
+flowchart LR
+    subgraph surfaces["Surfaces"]
+        forge["🔨 Forge<br/>GitHub App · Action · CLI"]
+        cli["⌨️ ShipIt CLI<br/>terminal agent"]
+        cloud["☁️ ShipIt Cloud<br/>remote control plane"]
+    end
+
+    subgraph core["Core"]
+        runtime["🤖 shipit-agent<br/>Python agent runtime<br/>tools · MCP · RAG · memory · permissions"]
+    end
+
+    subgraph quality["Quality & Security"]
+        qa["🧪 ShipitQA<br/>autonomous browser testing"]
+        sec["🛡️ Sentinel<br/>autonomous AI pentesting"]
+    end
+
+    obs["📊 Watchtower<br/>tracing · cost · PII masking"]
+
+    forge --> runtime
+    cli --> runtime
+    cloud --> runtime
+    runtime --> qa
+    runtime --> sec
+    runtime -.traces.-> obs
+    forge -.traces.-> obs
+    qa -.evidence.-> obs
+```
+
+---
+
 ## 🔨 Agents that ship
 
 <table>
@@ -123,6 +159,20 @@ pip install shipit-watcher
 
 ---
 
+## 🧪 In the lab — coming next
+
+The public repos are the foundation. On top of them, currently in private
+development and closed beta:
+
+| | | |
+|---|---|---|
+| 🛡️ **Sentinel** | Autonomous AI penetration testing — **23 autonomous ReAct attacker agents** that find, validate and explain real vulnerabilities in web apps and APIs: code-level root cause, OWASP mapping, live exploit proof, auditor-ready reports. Multi-tenant SaaS. | *closed beta* |
+| 🧪 **ShipitQA** | Evidence-first autonomous product testing — a QA control plane driving real Playwright browsers, with human takeover for OTP/login boundaries and reproducible engineering reports where every issue carries exact evidence. | *in development* |
+| ☁️ **ShipIt Cloud** | The cloud control plane — run ShipIt agents remotely on your repos with the same permission layer, cost tracking, and traces you get locally. | *in development* |
+| ⌨️ **ShipIt CLI** | The full terminal agent — 65+ tools, 10+ providers, computer use, browser automation, deep research, and two-way Slack / Discord / Telegram / WhatsApp bots. | *preparing OSS release* |
+
+---
+
 ## How we build
 
 **Bring your own key.** Nothing here proxies your traffic through us or marks
@@ -139,6 +189,26 @@ in these tools is in what they *don't* say.
 
 **Own your data.** Traces land in your database. Usage lands in your SQLite
 file. Dashboards are account- or token-gated by default, never public.
+
+---
+
+## 👤 Who's behind ShipIt
+
+ShipIt is built by **[Rahul Raj](https://github.com/iamrraj)** — a full-stack &
+AI engineer in Warsaw, Poland, who has shipped production systems across
+edtech, automotive, insurance, and health, and now spends his time on one
+question: **how far can autonomous agents go before a human needs to step in —
+and how do you make that boundary safe, observable, and cheap?**
+
+Every tool here comes from running agents in production and hitting the same
+walls: agents that talk instead of committing, traces nobody can read, security
+scans nobody trusts, and bills nobody can attribute. ShipIt is the toolchain
+that came out of fixing those.
+
+<a href="https://github.com/iamrraj"><img src="https://img.shields.io/badge/GitHub-iamrraj-24292e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://iamrraj.com"><img src="https://img.shields.io/badge/Website-iamrraj.com-7C5CFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+<a href="https://www.linkedin.com/in/iamrraj/"><img src="https://img.shields.io/badge/LinkedIn-Rahul%20Raj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:rahul@iamrraj.com"><img src="https://img.shields.io/badge/Email-rahul@iamrraj.com-37E5B6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 ---
 
