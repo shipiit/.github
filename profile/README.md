@@ -4,7 +4,7 @@
 
 <br>
 
-**Coding agents · LLM observability · design systems · macOS**
+**Coding agents · LLM observability · design systems · security · macOS**
 
 <a href="https://docs.shipiit.com/"><img src="https://img.shields.io/badge/docs-shipiit.com-7C5CFF?style=for-the-badge" alt="Docs"></a>
 <a href="https://pypi.org/project/shipit-agent/"><img src="https://img.shields.io/pypi/v/shipit-agent?style=for-the-badge&color=37E5B6&label=shipit-agent" alt="shipit-agent on PyPI"></a>
@@ -132,10 +132,11 @@ pip install shipit-watcher
 
 ---
 
-## 🎨 Design and desktop
+## 🎨 Design, desktop and security
 
 | | |
 |---|---|
+| **[KeyVault](https://github.com/shipiit/keyvault)** | A password manager with **no server to trust**. Local-only and zero-knowledge for Chromium browsers: AES-GCM-256 vault under a PBKDF2-derived key, RFC 6238 TOTP with QR scanning, autofill that works on React/Vue apps, a bias-free CSPRNG generator, Watchtower for weak/reused/breached passwords, and importers for 1Password, Bitwarden, LastPass and Chrome. No backend, no account, no telemetry — breach checking is optional, off by default, and never sends the password. <br> `JavaScript` `MIT` · 697 tests · 97% coverage · two runtime deps (preact + jsQR) |
 | **[shipit-ui-design](https://github.com/shipiit/shipit-ui-design)** | Senior UI/UX in your terminal — a Claude Code plugin. Eleven skills, nine commands, a nine-category rubric, and a bias toward rich rather than minimal-by-default. Bootstraps design systems, generates polished components, and iterates visually through screenshot critique loops. <br> `TypeScript` `MIT` · [Live →](https://shipit-ui-design.vercel.app) |
 | **[ShipIt Palette](https://github.com/shipiit/ShipIt_Palette)** | Pick a color, ship the palette. Fourteen export formats, a live UI playground, and accessibility tools that check contrast where it actually matters. <br> `JavaScript` `MIT` · [Live →](https://shipit-palette.vercel.app) |
 | **[Snappilot](https://github.com/shipiit/snappilot)** | The free, open-source Snagit alternative for macOS. Capture, annotate, record and OCR — native Swift, on-device, private. Nothing leaves your machine. <br> `Swift` `SwiftUI` · [Site →](https://snappilot.vercel.app/) |
@@ -154,6 +155,7 @@ pip install shipit-watcher
 | [shipit-ui-design](https://github.com/shipiit/shipit-ui-design) | — | ![](https://img.shields.io/github/stars/shipiit/shipit-ui-design?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/shipit-ui-design?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/shipit-ui-design?style=flat-square&label=&color=1F2544) |
 | [ShipIt_Palette](https://github.com/shipiit/ShipIt_Palette) | — | ![](https://img.shields.io/github/stars/shipiit/ShipIt_Palette?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/ShipIt_Palette?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/ShipIt_Palette?style=flat-square&label=&color=1F2544) |
 | [snappilot](https://github.com/shipiit/snappilot) | ![](https://img.shields.io/github/v/release/shipiit/snappilot?style=flat-square&label=&color=7C5CFF&sort=semver) | ![](https://img.shields.io/github/stars/shipiit/snappilot?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/snappilot?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/snappilot?style=flat-square&label=&color=1F2544) |
+| [keyvault](https://github.com/shipiit/keyvault) | — | ![](https://img.shields.io/github/stars/shipiit/keyvault?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/keyvault?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/keyvault?style=flat-square&label=&color=1F2544) |
 
 </div>
 
