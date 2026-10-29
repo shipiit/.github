@@ -4,9 +4,11 @@
 
 <br>
 
-**Coding agents · LLM observability · design systems · security · macOS**
+**Coding agents · research agents · LLM observability · native Mac apps · design systems · security**
 
-<a href="https://docs.shipiit.com/"><img src="https://img.shields.io/badge/docs-shipiit.com-7C5CFF?style=for-the-badge" alt="Docs"></a>
+<a href="https://shipiit.com/"><img src="https://img.shields.io/badge/web-shipiit.com-7C5CFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="shipiit.com"></a>
+<a href="https://iamrraj.com/"><img src="https://img.shields.io/badge/founder-iamrraj.com-37E5B6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="iamrraj.com"></a>
+<a href="https://docs.shipiit.com/"><img src="https://img.shields.io/badge/docs-docs.shipiit.com-1F2544?style=for-the-badge" alt="Docs"></a>
 <a href="https://pypi.org/project/shipit-agent/"><img src="https://img.shields.io/pypi/v/shipit-agent?style=for-the-badge&color=37E5B6&label=shipit-agent" alt="shipit-agent on PyPI"></a>
 <a href="https://pypi.org/project/shipit-watcher/"><img src="https://img.shields.io/pypi/v/shipit-watcher?style=for-the-badge&color=37E5B6&label=shipit-watcher" alt="shipit-watcher on PyPI"></a>
 <img src="https://komarev.com/ghpvc/?username=shipiit&style=for-the-badge&color=7C5CFF&label=PROFILE+VIEWS" alt="Profile views">
@@ -20,8 +22,32 @@ actually opens the pull request, the runtime underneath it, the trace that
 explains what an AI system did and what it cost, and the security pass that
 runs before the model and costs nothing.
 
-Everything below is open source. Most of it runs on **your** keys and **your**
-infrastructure.
+Alongside them, we make small native apps for the computer you work on: a Mac
+cleaner that explains every file before it touches it, a screen-capture studio,
+and a password manager with no server behind it.
+
+Everything below is open source. Most of it runs on **your** keys, **your**
+infrastructure and **your** Mac.
+
+## 🧭 Every ShipIt product
+
+| | Product | What it is | Platform | Status | Links |
+|---|---|---|---|---|---|
+| 🔨 | **[Forge](https://github.com/shipiit/forge)** | Autonomous GitHub coding agent: fixes issues, opens PRs, reviews code with a security lens, auto-fixes CI | GitHub App · Action · CLI | ![](https://img.shields.io/github/v/release/shipiit/forge?style=flat-square&label=&color=7C5CFF&sort=semver) | [Guide](https://shipiit.github.io/forge/) |
+| 🤖 | **[shipit-agent](https://github.com/shipiit/shipit_agent)** | Python runtime for tool-using agents: MCP, RAG, memory, permissions, streaming, any LLM | Python 3.11+ | ![](https://img.shields.io/pypi/v/shipit-agent?style=flat-square&label=&color=7C5CFF) | [Docs](https://docs.shipiit.com/) · [PyPI](https://pypi.org/project/shipit-agent/) |
+| 📊 | **[Watchtower](https://github.com/shipiit/shipit-watchtower)** | Observability for LLM apps: tracing, prompt governance, cost allocation, PII masking | Python 3.11+ | ![](https://img.shields.io/pypi/v/shipit-watcher?style=flat-square&label=&color=7C5CFF) | [PyPI](https://pypi.org/project/shipit-watcher/) |
+| 🧹 | **[MacSweep](https://github.com/shipiit/mac-sweep)** | Clean, protect, speed up and understand your Mac; AI usage tracking built in | macOS 15+ | ![](https://img.shields.io/github/v/release/shipiit/mac-sweep?style=flat-square&label=&color=7C5CFF&sort=semver) | [Website](https://shipiit.github.io/mac-sweep-website/) · [Download](https://github.com/shipiit/mac-sweep/releases/latest) |
+| 📸 | **[Snappilot](https://github.com/shipiit/snappilot)** | Screen capture studio: capture, annotate, record, OCR — on-device | macOS 14+ | ![](https://img.shields.io/github/v/release/shipiit/snappilot?style=flat-square&label=&color=7C5CFF&sort=semver) | [Website](https://snappilot.vercel.app/) · [Download](https://github.com/shipiit/snappilot/releases/latest/download/Snappilot.dmg) |
+| 🔐 | **[KeyVault](https://github.com/shipiit/keyvault)** | Zero-knowledge password manager with TOTP — no server, no account | Chrome · Chromium | ![](https://img.shields.io/github/v/release/shipiit/keyvault?style=flat-square&label=&color=7C5CFF&sort=semver) | [Website](https://shipiit.github.io/keyvault/) |
+| 🎨 | **[shipit-ui-design](https://github.com/shipiit/shipit-ui-design)** | Senior UI/UX in your terminal — Claude Code plugin with 11 skills and 9 commands | Claude Code | open source | [Live demo](https://shipit-ui-design.vercel.app) |
+| 🌈 | **[ShipIt Palette](https://github.com/shipiit/ShipIt_Palette)** | One hex to a full design system: scales, previews, 14 export formats, Figma | Web | open source | [Live](https://shipit-palette.vercel.app) |
+| ✅ | **Vouchline** | Research agents where every claim links to its quoted source, re-checked | Web · API | in development | — |
+| 🔁 | **Relay** | Self-hosted platform where Claude Code takes an issue to a verified pull request | Self-hosted | in development | — |
+| 🔍 | **Pentest skills** | One `/pentest` command: full, evidence-based security audit with an HTML report | Claude Code | private beta | — |
+| 🛡️ | **Sentinel** | Autonomous AI penetration testing with 23 attacker agents | SaaS | closed beta | — |
+| 🧪 | **ShipitQA** | Evidence-first autonomous product testing in real browsers | Web | in development | — |
+| ☁️ | **ShipIt Cloud** | Run ShipIt agents remotely with the same permissions, costs and traces | Cloud | in development | — |
+| ⌨️ | **ShipIt CLI** | Terminal agent with 65+ tools and Slack / Discord / Telegram / WhatsApp bots | macOS · Linux | preparing OSS release | — |
 
 ---
 
@@ -111,6 +137,47 @@ pip install shipit-agent
 
 ---
 
+## 🖥️ Native apps for your Mac
+
+<table>
+<tr><td width="50%" valign="top">
+
+### [MacSweep](https://github.com/shipiit/mac-sweep)
+
+**Clean, protect, speed up and understand your Mac — in one native app.**
+
+Smart Scan checks junk, security, speed and apps in about 20 seconds. Every
+cleanup item says what it is and what happens if you delete it, and everything
+goes to the Trash first. Malware and download protection, a security score,
+Memory Guard for low-RAM moments, Startup Guard for new launch agents, a
+developer hub (Docker, Homebrew, Xcode, `node_modules`, Git repos, ports), and
+Claude Code / Codex usage with cost by model and live plan limits.
+
+`Swift` `SwiftUI` · macOS 15+ · 600+ tests · no dependencies · no analytics
+<br>[**Download →**](https://github.com/shipiit/mac-sweep/releases/latest) · [Website →](https://shipiit.github.io/mac-sweep-website/)
+
+</td><td width="50%" valign="top">
+
+### [Snappilot](https://github.com/shipiit/snappilot)
+
+**The free, open-source screen-capture studio for macOS.**
+
+Region, window, full-screen and scrolling capture with a magnifier loupe;
+annotate with arrows, text, highlights and live pixelate/blur redaction; record
+the screen with audio; pull text out of any image with on-device OCR. Every
+capture lands in a local library you can search by the text inside it.
+
+No telemetry, no cloud, no sign-in — ScreenCaptureKit and Apple's on-device
+frameworks, no Electron.
+
+`Swift` `SwiftUI` `MIT` · macOS 14+
+<br>[**Download →**](https://github.com/shipiit/snappilot/releases/latest/download/Snappilot.dmg) · [Website →](https://snappilot.vercel.app/)
+
+</td></tr>
+</table>
+
+---
+
 ## 📊 Know what your AI actually did
 
 ### [shipit-watchtower](https://github.com/shipiit/shipit-watchtower)
@@ -132,14 +199,13 @@ pip install shipit-watcher
 
 ---
 
-## 🎨 Design, desktop and security
+## 🔐 Design and security
 
 | | |
 |---|---|
-| **[KeyVault](https://github.com/shipiit/keyvault)** | A password manager with **no server to trust**. Local-only and zero-knowledge for Chromium browsers: AES-GCM-256 vault under a PBKDF2-derived key, RFC 6238 TOTP with QR scanning, autofill that works on React/Vue apps, a bias-free CSPRNG generator, Watchtower for weak/reused/breached passwords, and importers for 1Password, Bitwarden, LastPass and Chrome. No backend, no account, no telemetry — breach checking is optional, off by default, and never sends the password. <br> `JavaScript` `MIT` · 697 tests · 97% coverage · two runtime deps (preact + jsQR) |
+| **[KeyVault](https://github.com/shipiit/keyvault)** | A password manager with **no server to trust**. Local-only and zero-knowledge for Chromium browsers: AES-GCM-256 vault under a PBKDF2-derived key, RFC 6238 TOTP with QR scanning, autofill that works on React/Vue apps, a bias-free CSPRNG generator, Watchtower for weak/reused/breached passwords, and importers for 1Password, Bitwarden, LastPass and Chrome. No backend, no account, no telemetry — breach checking is optional, off by default, and never sends the password. <br> `JavaScript` `MIT` · 936 tests · 97% coverage · two runtime deps (preact + jsQR) · [Site →](https://shipiit.github.io/keyvault/) |
 | **[shipit-ui-design](https://github.com/shipiit/shipit-ui-design)** | Senior UI/UX in your terminal — a Claude Code plugin. Eleven skills, nine commands, a nine-category rubric, and a bias toward rich rather than minimal-by-default. Bootstraps design systems, generates polished components, and iterates visually through screenshot critique loops. <br> `TypeScript` `MIT` · [Live →](https://shipit-ui-design.vercel.app) |
-| **[ShipIt Palette](https://github.com/shipiit/ShipIt_Palette)** | Pick a color, ship the palette. Fourteen export formats, a live UI playground, and accessibility tools that check contrast where it actually matters. <br> `JavaScript` `MIT` · [Live →](https://shipit-palette.vercel.app) |
-| **[Snappilot](https://github.com/shipiit/snappilot)** | The free, open-source Snagit alternative for macOS. Capture, annotate, record and OCR — native Swift, on-device, private. Nothing leaves your machine. <br> `Swift` `SwiftUI` · [Site →](https://snappilot.vercel.app/) |
+| **[ShipIt Palette](https://github.com/shipiit/ShipIt_Palette)** | Pick a color, ship the palette. One hex becomes a full design system: shade scales, live UI previews and an HTML playground, 18+ tools, 14 export formats in HEX/RGBA/HSL/OKLCH, a Figma integration, and accessibility tools that check contrast where it actually matters. Pairs with shipit-ui-design. <br> `JavaScript` `MIT` · [Live →](https://shipit-palette.vercel.app) |
 
 ---
 
@@ -155,7 +221,8 @@ pip install shipit-watcher
 | [shipit-ui-design](https://github.com/shipiit/shipit-ui-design) | — | ![](https://img.shields.io/github/stars/shipiit/shipit-ui-design?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/shipit-ui-design?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/shipit-ui-design?style=flat-square&label=&color=1F2544) |
 | [ShipIt_Palette](https://github.com/shipiit/ShipIt_Palette) | — | ![](https://img.shields.io/github/stars/shipiit/ShipIt_Palette?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/ShipIt_Palette?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/ShipIt_Palette?style=flat-square&label=&color=1F2544) |
 | [snappilot](https://github.com/shipiit/snappilot) | ![](https://img.shields.io/github/v/release/shipiit/snappilot?style=flat-square&label=&color=7C5CFF&sort=semver) | ![](https://img.shields.io/github/stars/shipiit/snappilot?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/snappilot?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/snappilot?style=flat-square&label=&color=1F2544) |
-| [keyvault](https://github.com/shipiit/keyvault) | — | ![](https://img.shields.io/github/stars/shipiit/keyvault?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/keyvault?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/keyvault?style=flat-square&label=&color=1F2544) |
+| [mac-sweep](https://github.com/shipiit/mac-sweep) | ![](https://img.shields.io/github/v/release/shipiit/mac-sweep?style=flat-square&label=&color=7C5CFF&sort=semver) | ![](https://img.shields.io/github/stars/shipiit/mac-sweep?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/mac-sweep?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/mac-sweep?style=flat-square&label=&color=1F2544) |
+| [keyvault](https://github.com/shipiit/keyvault) | ![](https://img.shields.io/github/v/release/shipiit/keyvault?style=flat-square&label=&color=7C5CFF&sort=semver) | ![](https://img.shields.io/github/stars/shipiit/keyvault?style=flat-square&label=&color=37E5B6) | ![](https://img.shields.io/github/languages/top/shipiit/keyvault?style=flat-square&color=0B0D17) | ![](https://img.shields.io/github/last-commit/shipiit/keyvault?style=flat-square&label=&color=1F2544) |
 
 </div>
 
@@ -168,6 +235,9 @@ development and closed beta:
 
 | | | |
 |---|---|---|
+| ✅ **Vouchline** | Research agents that verify what they find. Every claim in a report links to the source it came from, with the quoted passage — and the system re-checks each quote itself before you see it. | *in development* |
+| 🔁 **Relay** | A self-hosted platform where the Claude Code CLI is the engineer: it takes an issue to a reviewed pull request, has three independent agents try to refute its own fix, and opens the PR only if they cannot. Every tool call is recorded. | *in development* |
+| 🔍 **Pentest skills** | One `/pentest` command for Claude Code: scope form, recon, static review across every stack, scanners, local exploit verification, read-only dynamic tests and an HTML report — the scripts count, the model judges. | *private beta* |
 | 🛡️ **Sentinel** | Autonomous AI penetration testing — **23 autonomous ReAct attacker agents** that find, validate and explain real vulnerabilities in web apps and APIs: code-level root cause, OWASP mapping, live exploit proof, auditor-ready reports. Multi-tenant SaaS. | *closed beta* |
 | 🧪 **ShipitQA** | Evidence-first autonomous product testing — a QA control plane driving real Playwright browsers, with human takeover for OTP/login boundaries and reproducible engineering reports where every issue carries exact evidence. | *in development* |
 | ☁️ **ShipIt Cloud** | The cloud control plane — run ShipIt agents remotely on your repos with the same permission layer, cost tracking, and traces you get locally. | *in development* |
@@ -196,7 +266,7 @@ file. Dashboards are account- or token-gated by default, never public.
 
 ## 👤 Who's behind ShipIt
 
-ShipIt is built by **[Rahul Raj](https://github.com/iamrraj)** — a full-stack &
+ShipIt is built by **[Rahul Raj](https://iamrraj.com/)** — a full-stack &
 AI engineer in Warsaw, Poland, who has shipped production systems across
 edtech, automotive, insurance, and health, and now spends his time on one
 question: **how far can autonomous agents go before a human needs to step in —
@@ -216,7 +286,7 @@ that came out of fixing those.
 
 <div align="center">
 
-**[Documentation](https://docs.shipiit.com/)** · **[Forge guide](https://shipiit.github.io/forge/)** · **[PyPI](https://pypi.org/user/shipiit/)**
+**[shipiit.com](https://shipiit.com/)** · **[iamrraj.com](https://iamrraj.com/)** · **[Documentation](https://docs.shipiit.com/)** · **[Forge guide](https://shipiit.github.io/forge/)** · **[MacSweep](https://shipiit.github.io/mac-sweep-website/)** · **[Snappilot](https://snappilot.vercel.app/)** · **[KeyVault](https://shipiit.github.io/keyvault/)** · **[PyPI](https://pypi.org/user/shipiit/)**
 
 Issues and pull requests are welcome on every repository.
 
