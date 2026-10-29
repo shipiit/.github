@@ -8,6 +8,7 @@
 
 <a href="https://shipiit.com/"><img src="https://img.shields.io/badge/web-shipiit.com-7C5CFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="shipiit.com"></a>
 <a href="https://iamrraj.com/"><img src="https://img.shields.io/badge/founder-iamrraj.com-37E5B6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="iamrraj.com"></a>
+<a href="https://www.linkedin.com/in/iamrraj/"><img src="https://img.shields.io/badge/LinkedIn-Rahul%20Raj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Rahul Raj on LinkedIn"></a>
 <a href="https://docs.shipiit.com/"><img src="https://img.shields.io/badge/docs-docs.shipiit.com-1F2544?style=for-the-badge" alt="Docs"></a>
 <a href="https://pypi.org/project/shipit-agent/"><img src="https://img.shields.io/pypi/v/shipit-agent?style=for-the-badge&color=37E5B6&label=shipit-agent" alt="shipit-agent on PyPI"></a>
 <a href="https://pypi.org/project/shipit-watcher/"><img src="https://img.shields.io/pypi/v/shipit-watcher?style=for-the-badge&color=37E5B6&label=shipit-watcher" alt="shipit-watcher on PyPI"></a>
@@ -286,7 +287,7 @@ that came out of fixing those.
 
 <div align="center">
 
-**[shipiit.com](https://shipiit.com/)** · **[iamrraj.com](https://iamrraj.com/)** · **[Documentation](https://docs.shipiit.com/)** · **[Forge guide](https://shipiit.github.io/forge/)** · **[MacSweep](https://shipiit.github.io/mac-sweep-website/)** · **[Snappilot](https://snappilot.vercel.app/)** · **[KeyVault](https://shipiit.github.io/keyvault/)** · **[PyPI](https://pypi.org/user/shipiit/)**
+**[shipiit.com](https://shipiit.com/)** · **[iamrraj.com](https://iamrraj.com/)** · **[LinkedIn](https://www.linkedin.com/in/iamrraj/)** · **[Documentation](https://docs.shipiit.com/)** · **[Forge guide](https://shipiit.github.io/forge/)** · **[MacSweep](https://shipiit.github.io/mac-sweep-website/)** · **[Snappilot](https://snappilot.vercel.app/)** · **[KeyVault](https://shipiit.github.io/keyvault/)** · **[PyPI](https://pypi.org/user/shipiit/)**
 
 Issues and pull requests are welcome on every repository.
 
