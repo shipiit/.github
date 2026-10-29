@@ -6,6 +6,7 @@
 
 **Coding agents · research agents · LLM observability · native Mac apps · design systems · security**
 
+<a href="https://app.shipiit.com/"><img src="https://img.shields.io/badge/try-Vouchline-37E5B6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Try Vouchline"></a>
 <a href="https://shipiit.com/"><img src="https://img.shields.io/badge/web-shipiit.com-7C5CFF?style=for-the-badge&logo=googlechrome&logoColor=white" alt="shipiit.com"></a>
 <a href="https://iamrraj.com/"><img src="https://img.shields.io/badge/founder-iamrraj.com-37E5B6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="iamrraj.com"></a>
 <a href="https://www.linkedin.com/in/iamrraj/"><img src="https://img.shields.io/badge/LinkedIn-Rahul%20Raj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Rahul Raj on LinkedIn"></a>
@@ -42,7 +43,7 @@ infrastructure and **your** Mac.
 | 🔐 | **[KeyVault](https://github.com/shipiit/keyvault)** | Zero-knowledge password manager with TOTP — no server, no account | Chrome · Chromium | ![](https://img.shields.io/github/v/release/shipiit/keyvault?style=flat-square&label=&color=7C5CFF&sort=semver) | [Website](https://shipiit.github.io/keyvault/) |
 | 🎨 | **[shipit-ui-design](https://github.com/shipiit/shipit-ui-design)** | Senior UI/UX in your terminal — Claude Code plugin with 11 skills and 9 commands | Claude Code | open source | [Live demo](https://shipit-ui-design.vercel.app) |
 | 🌈 | **[ShipIt Palette](https://github.com/shipiit/ShipIt_Palette)** | One hex to a full design system: scales, previews, 14 export formats, Figma | Web | open source | [Live](https://shipit-palette.vercel.app) |
-| ✅ | **Vouchline** | Research agents where every claim links to its quoted source, re-checked | Web · API | in development | — |
+| ✅ | **[Vouchline](https://app.shipiit.com/)** | **Flagship.** AI research & due-diligence platform — every claim links to its quoted source, re-checked | Web | ![](https://img.shields.io/badge/live-37E5B6?style=flat-square) | [Open app](https://app.shipiit.com/) |
 | 🔁 | **Relay** | Self-hosted platform where Claude Code takes an issue to a verified pull request | Self-hosted | in development | — |
 | 🔍 | **Pentest skills** | One `/pentest` command: full, evidence-based security audit with an HTML report | Claude Code | private beta | — |
 | 🛡️ | **Sentinel** | Autonomous AI penetration testing with 23 attacker agents | SaaS | closed beta | — |
@@ -236,7 +237,7 @@ development and closed beta:
 
 | | | |
 |---|---|---|
-| ✅ **Vouchline** | Research agents that verify what they find. Every claim in a report links to the source it came from, with the quoted passage — and the system re-checks each quote itself before you see it. | *in development* |
+| ✅ **[Vouchline](https://app.shipiit.com/)** | Research agents that verify what they find. Every claim in a report links to the source it came from, with the quoted passage — and the system re-checks each quote itself before you see it. | **live** · [app.shipiit.com](https://app.shipiit.com/) |
 | 🔁 **Relay** | A self-hosted platform where the Claude Code CLI is the engineer: it takes an issue to a reviewed pull request, has three independent agents try to refute its own fix, and opens the PR only if they cannot. Every tool call is recorded. | *in development* |
 | 🔍 **Pentest skills** | One `/pentest` command for Claude Code: scope form, recon, static review across every stack, scanners, local exploit verification, read-only dynamic tests and an HTML report — the scripts count, the model judges. | *private beta* |
 | 🛡️ **Sentinel** | Autonomous AI penetration testing — **23 autonomous ReAct attacker agents** that find, validate and explain real vulnerabilities in web apps and APIs: code-level root cause, OWASP mapping, live exploit proof, auditor-ready reports. Multi-tenant SaaS. | *closed beta* |
@@ -287,7 +288,7 @@ that came out of fixing those.
 
 <div align="center">
 
-**[shipiit.com](https://shipiit.com/)** · **[iamrraj.com](https://iamrraj.com/)** · **[LinkedIn](https://www.linkedin.com/in/iamrraj/)** · **[Documentation](https://docs.shipiit.com/)** · **[Forge guide](https://shipiit.github.io/forge/)** · **[MacSweep](https://shipiit.github.io/mac-sweep-website/)** · **[Snappilot](https://snappilot.vercel.app/)** · **[KeyVault](https://shipiit.github.io/keyvault/)** · **[PyPI](https://pypi.org/user/shipiit/)**
+**[Vouchline](https://app.shipiit.com/)** · **[shipiit.com](https://shipiit.com/)** · **[iamrraj.com](https://iamrraj.com/)** · **[LinkedIn](https://www.linkedin.com/in/iamrraj/)** · **[Documentation](https://docs.shipiit.com/)** · **[Forge guide](https://shipiit.github.io/forge/)** · **[MacSweep](https://shipiit.github.io/mac-sweep-website/)** · **[Snappilot](https://snappilot.vercel.app/)** · **[KeyVault](https://shipiit.github.io/keyvault/)** · **[PyPI](https://pypi.org/user/shipiit/)**
 
 Issues and pull requests are welcome on every repository.
 
