@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/shipiit/.github/main/profile/banner.svg" alt="ShipIt — developer tools that do the work, not just the talking" width="100%">
+<a href="https://shipiit.com/"><img src="https://raw.githubusercontent.com/shipiit/.github/main/profile/banner.jpg" alt="ShipIt — AI agents, developer tools and native Mac apps. Flagship: Vouchline, research agents that verify what they find. Also Forge, shipit-agent, Watchtower, MacSweep, Snappilot, KeyVault, UI Design and Palette." width="100%"></a>
 
 <br>
 
